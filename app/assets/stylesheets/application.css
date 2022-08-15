@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+.container {
+  width: 900px !important;
+}
+
+.card {
+  margin-top: 16px;
+}
+
+.blockquote-footer{
+  text-align: right;
+}
+
+.question form{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 8px;
+}
+
+.question {
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+}
